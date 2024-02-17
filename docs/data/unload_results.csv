@@ -1,0 +1,385 @@
+comName,sciName,measure_name,time,detections_cnt
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-11T14:00:00,7
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-11T15:00:00,29
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-11T16:00:00,6
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-11T17:00:00,3
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-11T22:00:00,3
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-12T14:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-12T15:00:00,5
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-12T16:00:00,4
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-12T18:00:00,3
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-12T20:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-12T22:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T14:00:00,6
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T15:00:00,30
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T16:00:00,3
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T17:00:00,13
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T18:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T19:00:00,5
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T20:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-13T23:00:00,3
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-14T14:00:00,4
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-14T15:00:00,7
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-14T16:00:00,9
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-14T17:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-14T20:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-14T22:00:00,11
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-15T14:00:00,3
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-15T15:00:00,15
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-15T16:00:00,5
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-15T17:00:00,7
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T14:00:00,4
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T15:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T16:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T17:00:00,9
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T19:00:00,6
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T20:00:00,4
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T21:00:00,9
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-16T22:00:00,6
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-17T14:00:00,7
+Red-breasted Nuthatch,Sitta canadensis,Confidence,2024-02-17T15:00:00,4
+Bewicks Wren,Thryomanes bewickii,Confidence,2024-02-13T17:00:00,6
+Bewicks Wren,Thryomanes bewickii,Confidence,2024-02-14T20:00:00,3
+Bewicks Wren,Thryomanes bewickii,Confidence,2024-02-15T16:00:00,2
+Acorn Woodpecker,Melanerpes formicivorus,Confidence,2024-02-12T23:00:00,2
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-11T14:00:00,2
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-11T17:00:00,28
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-11T18:00:00,7
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-12T14:00:00,17
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-12T18:00:00,7
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-12T19:00:00,4
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-13T15:00:00,13
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-13T16:00:00,11
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-13T21:00:00,8
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-13T22:00:00,15
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-14T14:00:00,5
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-14T18:00:00,16
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-14T19:00:00,5
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-14T20:00:00,5
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-15T14:00:00,5
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-15T15:00:00,7
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-15T16:00:00,3
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-16T00:00:00,3
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-16T16:00:00,19
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-16T20:00:00,2
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-16T23:00:00,2
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-17T14:00:00,10
+Stellers Jay,Cyanocitta stelleri,Confidence,2024-02-17T15:00:00,2
+,test,memory_utilization,2024-02-17T16:00:00,1
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-11T17:00:00,3
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-11T20:00:00,2
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-13T15:00:00,3
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-13T16:00:00,4
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-13T17:00:00,4
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-13T18:00:00,2
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-13T21:00:00,3
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-13T22:00:00,6
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-13T23:00:00,2
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-14T18:00:00,4
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-16T16:00:00,4
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-16T20:00:00,4
+Red-tailed Hawk,Buteo jamaicensis,Confidence,2024-02-17T14:00:00,2
+Bushtit,Psaltriparus minimus,Confidence,2024-02-11T14:00:00,2
+Bushtit,Psaltriparus minimus,Confidence,2024-02-12T01:00:00,3
+Bushtit,Psaltriparus minimus,Confidence,2024-02-13T15:00:00,2
+Bushtit,Psaltriparus minimus,Confidence,2024-02-14T01:00:00,10
+Bushtit,Psaltriparus minimus,Confidence,2024-02-14T16:00:00,6
+Bushtit,Psaltriparus minimus,Confidence,2024-02-15T23:00:00,7
+Bushtit,Psaltriparus minimus,Confidence,2024-02-16T01:00:00,3
+Bushtit,Psaltriparus minimus,Confidence,2024-02-16T17:00:00,2
+Bushtit,Psaltriparus minimus,Confidence,2024-02-17T14:00:00,2
+White-breasted Nuthatch,Sitta carolinensis,Confidence,2024-02-13T16:00:00,6
+White-breasted Nuthatch,Sitta carolinensis,Confidence,2024-02-16T15:00:00,12
+House Finch,Haemorhous mexicanus,Confidence,2024-02-11T15:00:00,2
+House Finch,Haemorhous mexicanus,Confidence,2024-02-11T20:00:00,2
+House Finch,Haemorhous mexicanus,Confidence,2024-02-16T01:00:00,2
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-12T17:00:00,2
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-13T17:00:00,2
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-15T14:00:00,2
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-15T19:00:00,2
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-15T23:00:00,3
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-16T00:00:00,2
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-16T17:00:00,2
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-16T21:00:00,3
+Cedar Waxwing,Bombycilla cedrorum,Confidence,2024-02-16T22:00:00,2
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-11T15:00:00,3
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-11T17:00:00,7
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-12T14:00:00,4
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-12T18:00:00,7
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-12T19:00:00,4
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-13T15:00:00,2
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-13T17:00:00,4
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-13T18:00:00,2
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-16T14:00:00,14
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-16T15:00:00,4
+Black Phoebe,Sayornis nigricans,Confidence,2024-02-16T18:00:00,2
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-11T08:00:00,5
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-11T09:00:00,3
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-11T10:00:00,4
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-12T11:00:00,70
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-12T12:00:00,12
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-12T13:00:00,2
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-13T07:00:00,21
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-13T10:00:00,5
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-14T02:00:00,2
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-14T09:00:00,15
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-14T10:00:00,2
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-14T11:00:00,18
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-14T12:00:00,39
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-14T14:00:00,11
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-15T10:00:00,2
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-16T11:00:00,6
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-17T04:00:00,2
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-17T07:00:00,101
+Great Horned Owl,Bubo virginianus,Confidence,2024-02-17T08:00:00,2
+Nuttalls Woodpecker,Dryobates nuttallii,Confidence,2024-02-16T15:00:00,2
+Nuttalls Woodpecker,Dryobates nuttallii,Confidence,2024-02-16T19:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-10T23:00:00,8
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T15:00:00,5
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T16:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T17:00:00,44
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T18:00:00,33
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T19:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T20:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T21:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-11T23:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-12T14:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-12T15:00:00,6
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-12T17:00:00,7
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-12T21:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-12T23:00:00,15
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T00:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T15:00:00,7
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T16:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T17:00:00,18
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T18:00:00,9
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T19:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T20:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T21:00:00,23
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-13T22:00:00,7
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-14T16:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-14T17:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-14T18:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-14T20:00:00,4
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-15T00:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-15T15:00:00,5
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-15T16:00:00,12
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-15T17:00:00,6
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-15T18:00:00,4
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T01:00:00,4
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T16:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T17:00:00,8
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T18:00:00,9
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T19:00:00,5
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T20:00:00,12
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T21:00:00,8
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-16T23:00:00,6
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-17T00:00:00,3
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-17T14:00:00,2
+American Crow,Corvus brachyrhynchos,Confidence,2024-02-17T15:00:00,2
+Mallard,Anas platyrhynchos,Confidence,2024-02-12T03:00:00,2
+Mallard,Anas platyrhynchos,Confidence,2024-02-14T02:00:00,2
+Mallard,Anas platyrhynchos,Confidence,2024-02-14T04:00:00,2
+Spotted Towhee,Pipilo maculatus,Confidence,2024-02-16T00:00:00,3
+Spotted Towhee,Pipilo maculatus,Confidence,2024-02-16T19:00:00,3
+Lesser Goldfinch,Spinus psaltria,Confidence,2024-02-11T19:00:00,2
+Lesser Goldfinch,Spinus psaltria,Confidence,2024-02-13T17:00:00,3
+Lesser Goldfinch,Spinus psaltria,Confidence,2024-02-14T14:00:00,2
+Lesser Goldfinch,Spinus psaltria,Confidence,2024-02-15T14:00:00,2
+Lesser Goldfinch,Spinus psaltria,Confidence,2024-02-15T15:00:00,3
+Lesser Goldfinch,Spinus psaltria,Confidence,2024-02-17T00:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-10T23:00:00,10
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-11T00:00:00,17
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-11T14:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-11T15:00:00,3
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-11T17:00:00,12
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-11T18:00:00,13
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-11T19:00:00,5
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-11T20:00:00,6
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-12T14:00:00,12
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-12T15:00:00,4
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-12T16:00:00,5
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-12T17:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-12T18:00:00,3
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-12T20:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-12T23:00:00,6
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-13T00:00:00,12
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-13T14:00:00,3
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-13T16:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-13T17:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-13T23:00:00,4
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-14T00:00:00,4
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-14T14:00:00,5
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-14T15:00:00,6
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-14T18:00:00,3
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-14T21:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-15T00:00:00,10
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-15T01:00:00,3
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-15T14:00:00,9
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-15T18:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-15T19:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-15T23:00:00,12
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-16T01:00:00,4
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-16T14:00:00,5
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-16T16:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-16T21:00:00,3
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-16T23:00:00,4
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-17T00:00:00,2
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-17T14:00:00,4
+Mountain Chickadee,Poecile gambeli,Confidence,2024-02-17T15:00:00,2
+Coopers Hawk,Accipiter cooperii,Confidence,2024-02-11T14:00:00,4
+Coopers Hawk,Accipiter cooperii,Confidence,2024-02-12T14:00:00,3
+Coopers Hawk,Accipiter cooperii,Confidence,2024-02-14T18:00:00,2
+Coopers Hawk,Accipiter cooperii,Confidence,2024-02-16T00:00:00,2
+Coopers Hawk,Accipiter cooperii,Confidence,2024-02-16T14:00:00,4
+Allens Hummingbird,Selasphorus sasin,Confidence,2024-02-14T17:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-11T14:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-11T16:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-11T17:00:00,14
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-11T18:00:00,17
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-11T20:00:00,5
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-12T15:00:00,5
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-12T16:00:00,24
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-12T17:00:00,31
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-13T16:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-13T17:00:00,3
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-13T18:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-13T19:00:00,17
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-13T20:00:00,36
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-14T01:00:00,8
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-14T14:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-14T16:00:00,3
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-14T18:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-14T21:00:00,2
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-15T16:00:00,26
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-15T17:00:00,9
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-15T19:00:00,9
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-15T23:00:00,4
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-16T21:00:00,16
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-16T22:00:00,3
+Dark-eyed Junco,Junco hyemalis,Confidence,2024-02-17T01:00:00,8
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-11T16:00:00,6
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-11T17:00:00,5
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-11T19:00:00,6
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-11T20:00:00,12
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-12T15:00:00,5
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-12T18:00:00,2
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-12T19:00:00,2
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-12T21:00:00,2
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-12T23:00:00,9
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-13T00:00:00,9
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-13T14:00:00,5
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-13T15:00:00,7
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-13T16:00:00,14
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-13T17:00:00,5
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-13T18:00:00,5
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-13T22:00:00,3
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-14T00:00:00,3
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-15T01:00:00,2
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-15T15:00:00,12
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-15T16:00:00,4
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-15T17:00:00,4
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-15T18:00:00,2
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-15T23:00:00,15
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-16T00:00:00,4
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-16T01:00:00,4
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-16T14:00:00,3
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-16T15:00:00,9
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-17T00:00:00,4
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-17T14:00:00,6
+Oak Titmouse,Baeolophus inornatus,Confidence,2024-02-17T15:00:00,22
+Says Phoebe,Sayornis saya,Confidence,2024-02-14T15:00:00,2
+Ruby-crowned Kinglet,Corthylio calendula,Confidence,2024-02-13T20:00:00,2
+California Towhee,Melozone crissalis,Confidence,2024-02-11T14:00:00,19
+California Towhee,Melozone crissalis,Confidence,2024-02-11T15:00:00,4
+California Towhee,Melozone crissalis,Confidence,2024-02-11T16:00:00,2
+California Towhee,Melozone crissalis,Confidence,2024-02-12T14:00:00,12
+California Towhee,Melozone crissalis,Confidence,2024-02-13T01:00:00,2
+California Towhee,Melozone crissalis,Confidence,2024-02-13T14:00:00,64
+California Towhee,Melozone crissalis,Confidence,2024-02-13T15:00:00,12
+California Towhee,Melozone crissalis,Confidence,2024-02-13T16:00:00,63
+California Towhee,Melozone crissalis,Confidence,2024-02-13T17:00:00,18
+California Towhee,Melozone crissalis,Confidence,2024-02-14T01:00:00,2
+California Towhee,Melozone crissalis,Confidence,2024-02-14T14:00:00,11
+California Towhee,Melozone crissalis,Confidence,2024-02-15T01:00:00,23
+California Towhee,Melozone crissalis,Confidence,2024-02-15T14:00:00,22
+California Towhee,Melozone crissalis,Confidence,2024-02-15T15:00:00,2
+California Towhee,Melozone crissalis,Confidence,2024-02-15T16:00:00,6
+California Towhee,Melozone crissalis,Confidence,2024-02-16T01:00:00,4
+California Towhee,Melozone crissalis,Confidence,2024-02-16T14:00:00,9
+California Towhee,Melozone crissalis,Confidence,2024-02-16T15:00:00,19
+California Towhee,Melozone crissalis,Confidence,2024-02-16T16:00:00,11
+California Towhee,Melozone crissalis,Confidence,2024-02-16T17:00:00,5
+California Towhee,Melozone crissalis,Confidence,2024-02-17T00:00:00,2
+California Towhee,Melozone crissalis,Confidence,2024-02-17T01:00:00,23
+California Towhee,Melozone crissalis,Confidence,2024-02-17T14:00:00,8
+Mourning Dove,Zenaida macroura,Confidence,2024-02-11T14:00:00,6
+Mourning Dove,Zenaida macroura,Confidence,2024-02-11T16:00:00,2
+Mourning Dove,Zenaida macroura,Confidence,2024-02-11T19:00:00,2
+Mourning Dove,Zenaida macroura,Confidence,2024-02-13T01:00:00,8
+Mourning Dove,Zenaida macroura,Confidence,2024-02-13T14:00:00,10
+Mourning Dove,Zenaida macroura,Confidence,2024-02-13T16:00:00,7
+Mourning Dove,Zenaida macroura,Confidence,2024-02-13T17:00:00,22
+Mourning Dove,Zenaida macroura,Confidence,2024-02-15T14:00:00,2
+Mourning Dove,Zenaida macroura,Confidence,2024-02-15T16:00:00,8
+Mourning Dove,Zenaida macroura,Confidence,2024-02-15T17:00:00,2
+Mourning Dove,Zenaida macroura,Confidence,2024-02-16T00:00:00,40
+Mourning Dove,Zenaida macroura,Confidence,2024-02-16T01:00:00,2
+Mourning Dove,Zenaida macroura,Confidence,2024-02-16T14:00:00,2
+Mourning Dove,Zenaida macroura,Confidence,2024-02-16T16:00:00,6
+Mourning Dove,Zenaida macroura,Confidence,2024-02-16T17:00:00,2
+Mourning Dove,Zenaida macroura,Confidence,2024-02-17T14:00:00,3
+Stellers Jay,Cyanocitta stelleri,confidence,2024-02-17T17:00:00,2
+Stellers Jay,Cyanocitta stelleri,confidence,2024-02-17T18:00:00,42
+Stellers Jay,Cyanocitta stelleri,confidence,2024-02-17T19:00:00,1
+Canada Goose,Branta canadensis,Confidence,2024-02-11T01:00:00,2
+Canada Goose,Branta canadensis,Confidence,2024-02-11T04:00:00,2
+Canada Goose,Branta canadensis,Confidence,2024-02-12T11:00:00,2
+Canada Goose,Branta canadensis,Confidence,2024-02-14T11:00:00,2
+Canada Goose,Branta canadensis,Confidence,2024-02-14T17:00:00,2
+Mourning Dove,Zenaida macroura,confidence,2024-02-17T17:00:00,1
+Red-tailed Hawk,Buteo jamaicensis,confidence,2024-02-17T18:00:00,5
+Red-tailed Hawk,Buteo jamaicensis,confidence,2024-02-17T19:00:00,1
+Hermit Thrush,Catharus guttatus,Confidence,2024-02-13T14:00:00,2
+Whimbrel,Numenius phaeopus,Confidence,2024-02-16T23:00:00,2
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-11T01:00:00,3
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-12T14:00:00,5
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-13T01:00:00,4
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-13T15:00:00,2
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-15T14:00:00,2
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-16T00:00:00,2
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-16T01:00:00,7
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-16T15:00:00,6
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-17T00:00:00,2
+Yellow-rumped Warbler,Setophaga coronata,Confidence,2024-02-17T01:00:00,5
+Downy Woodpecker,Dryobates pubescens,Confidence,2024-02-16T15:00:00,2
+Wrentit,Chamaea fasciata,Confidence,2024-02-13T20:00:00,2
+Eurasian Collared-Dove,Streptopelia decaocto,Confidence,2024-02-14T02:00:00,2
+,test,cpu_utilization,2024-02-17T16:00:00,1
+Common Raven,Corvus corax,Confidence,2024-02-13T17:00:00,10
+Common Raven,Corvus corax,Confidence,2024-02-13T18:00:00,3
+Common Raven,Corvus corax,Confidence,2024-02-13T23:00:00,2
+Common Raven,Corvus corax,Confidence,2024-02-14T01:00:00,2
+Common Raven,Corvus corax,Confidence,2024-02-14T16:00:00,2
+Common Raven,Corvus corax,Confidence,2024-02-14T20:00:00,2
+Common Raven,Corvus corax,Confidence,2024-02-15T18:00:00,2
+Common Raven,Corvus corax,Confidence,2024-02-15T20:00:00,2
+Fox Sparrow,Passerella iliaca,Confidence,2024-02-15T17:00:00,2
+Black Phoebe,Sayornis nigricans,confidence,2024-02-17T17:00:00,3
+Gadwall,Mareca strepera,Confidence,2024-02-13T05:00:00,2
+Red-breasted Nuthatch,Sitta canadensis,confidence,2024-02-17T17:00:00,3
+Red-breasted Nuthatch,Sitta canadensis,confidence,2024-02-17T19:00:00,5
+Red-shouldered Hawk,Buteo lineatus,Confidence,2024-02-12T19:00:00,5
+Red-shouldered Hawk,Buteo lineatus,Confidence,2024-02-12T20:00:00,2
+Red-shouldered Hawk,Buteo lineatus,Confidence,2024-02-13T17:00:00,6
+Red-shouldered Hawk,Buteo lineatus,Confidence,2024-02-14T18:00:00,4
+Red-shouldered Hawk,Buteo lineatus,Confidence,2024-02-14T19:00:00,3
+American Crow,Corvus brachyrhynchos,confidence,2024-02-17T17:00:00,4
+American Crow,Corvus brachyrhynchos,confidence,2024-02-17T18:00:00,5
+American Crow,Corvus brachyrhynchos,confidence,2024-02-17T19:00:00,9
+Black-crowned Night-Heron,Nycticorax nycticorax,Confidence,2024-02-13T17:00:00,2
+California Scrub-Jay,Aphelocoma californica,Confidence,2024-02-13T18:00:00,4
+California Scrub-Jay,Aphelocoma californica,Confidence,2024-02-13T19:00:00,4
+California Scrub-Jay,Aphelocoma californica,Confidence,2024-02-15T15:00:00,3
+California Scrub-Jay,Aphelocoma californica,Confidence,2024-02-15T16:00:00,2
+Common Raven,Corvus corax,confidence,2024-02-17T19:00:00,1
