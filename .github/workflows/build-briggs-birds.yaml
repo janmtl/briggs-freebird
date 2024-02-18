@@ -1,5 +1,5 @@
 name: build-briggs-birds
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: Building briggsbirds.com
 on:
   schedule:
     - cron: 0 */3 * * *.
