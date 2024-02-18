@@ -24,3 +24,10 @@ jobs:
           FREEBIRD_AWS_SECRET_ACCESS_KEY: ${{ secrets.FREEBIRD_AWS_SECRET_ACCESS_KEY }}
           FREEBIRD_REGION_NAME: ${{ secrets.FREEBIRD_REGION_NAME }}
         run: npm run build
+      - name: Publish to bucket
+        env:
+          FREEBIRD_AWS_ACCESS_KEY_ID: ${{ secrets.FREEBIRD_AWS_ACCESS_KEY_ID }}
+          FREEBIRD_AWS_SECRET_ACCESS_KEY: ${{ secrets.FREEBIRD_AWS_SECRET_ACCESS_KEY }}
+          FREEBIRD_REGION_NAME: ${{ secrets.FREEBIRD_REGION_NAME }}
+          FREEBIRD_WWW_BUCKET_NAME: ${{ secrets.FREEBIRD_WWW_BUCKET_NAME }}
+        run: python3 publish.py
