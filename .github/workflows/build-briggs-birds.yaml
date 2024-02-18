@@ -17,7 +17,7 @@ jobs:
       - name: NPM install requirements
         run: npm install
       - name: PIP install requirements
-        run: pip install
+        run: pip install -r requirements.txt
       - name: Observable Build
         env:
           FREEBIRD_AWS_ACCESS_KEY_ID: ${{ secrets.FREEBIRD_AWS_ACCESS_KEY_ID }}
