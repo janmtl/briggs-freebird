@@ -14,5 +14,13 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - run: npm install
-      - run: npm run build
+      - name: NPM install requirements
+        run: npm install
+      - name: PIP install requirements
+        run: pip install
+      - name: Observable Build
+        env:
+          FREEBIRD_AWS_ACCESS_KEY_ID: ${{ secrets.FREEBIRD_AWS_ACCESS_KEY_ID }}
+          FREEBIRD_AWS_SECRET_ACCESS_KEY: ${{ secrets.FREEBIRD_AWS_SECRET_ACCESS_KEY }}
+          FREEBIRD_REGION_NAME: ${{ secrets.FREEBIRD_REGION_NAME }}
+        run: npm run build
