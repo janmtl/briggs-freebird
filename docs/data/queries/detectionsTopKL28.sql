@@ -19,7 +19,13 @@ ranked_daily_sums_l28 AS (
     RANK() OVER (PARTITION BY time ORDER BY detections_cnt DESC) AS sum_rank
   FROM daily_sums_l28
 )
-SELECT *
+SELECT
+  time,
+  comName,
+  sciName,
+  detections_cnt,
+  sum_rank,
+  date_diff('day', time, current_date) AS num_days_back
 FROM ranked_daily_sums_l28
 WHERE sum_rank <= ${TOP_K}
 
