@@ -37,6 +37,7 @@ function detectionsByDayL365Timeline(data, {width} = {}) {
     width,
     height: 300,
     y: {grid: true, label: "Detections"},
+    x: {grid: true, label: "Date", tickFormat: "%b %d"},
     color: {...top_birds_colors, legend: true},
     marks: [
       Plot.rectY(data, Plot.binX(
@@ -53,6 +54,7 @@ function detectionsByHourL7Timeline(data, {width} = {}) {
     width,
     height: 300,
     y: {grid: true, label: "Detections"},
+    x: {grid: true, label: "Date", tickFormat: "%b %d"},
     color: {...top_birds_colors, legend: true},
     marks: [
       Plot.rectY(data, Plot.binX(

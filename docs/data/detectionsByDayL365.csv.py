@@ -21,7 +21,7 @@ output_frame0 = (
     results0
     .pipe(lambda x: x.assign(time=pd.to_datetime(x['time'])))
     .pipe(lambda x: x[x['time'] >= pd.Timestamp('2024-02-01')])
-    .pipe(lambda x: x.assign(time=x['time'].dt.strftime("%Y-%m-%dT%H:%M:%S")))
+    .pipe(lambda x: x.assign(time=x['time'].dt.strftime("%Y-%m-%d")))
     .pipe(lambda x: x.assign(detections_cnt=x['detections_cnt'].astype(int)))
 )
 

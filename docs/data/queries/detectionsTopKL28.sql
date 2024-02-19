@@ -1,12 +1,12 @@
 WITH
 daily_sums_l28 AS (
   SELECT
-    bin(time, 1d) AS time,
+    bin(time - interval '8' hour, 1d) AS time,
     comName,
     sciName,
     COUNT(*) AS detections_cnt
   FROM freebirdDB."detectionsTBL"
-  WHERE measure_name = 'Confidence'
+  WHERE ((measure_name = 'Confidence') OR (measure_name = 'confidence'))
     AND time >= ago(14d)
   GROUP BY 1, 2, 3
 ),
