@@ -6,7 +6,8 @@ toc: false
 
 # Birds of Briggs Terrace
 
-Our hobby is tracking the birds that visit our yard. This page is a report of the detections we've seen so far! Each "detection" is made by a small outdoor microphone. A bird with more detections spent more time in our yard than bird with less.
+Our hobby is tracking the birds that visit our yard. This page is a report of the detections we've heard so far! Each "detection" is made by a small outdoor microphone. A bird with more 
+detections spent more time in our yard than bird with less.
 
 
 ```js
