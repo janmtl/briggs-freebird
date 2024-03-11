@@ -25,6 +25,7 @@ jobs:
           FREEBIRD_REGION_NAME: ${{ secrets.FREEBIRD_REGION_NAME }}
           FREEBIRD_BIRD_IMAGE_STORE_PREFIX: ${{ secrets.FREEBIRD_BIRD_IMAGE_STORE_PREFIX }}
           FREEBIRD_FLICKR_API_KEY: ${{ secrets.FREEBIRD_FLICKR_API_KEY }}
+          FREEBIRD_WWW_BUCKET_NAME: ${{ secrets.FREEBIRD_WWW_BUCKET_NAME }}
         run: npm run build
       - name: Publish to bucket
         env:
