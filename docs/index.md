@@ -4,6 +4,37 @@ title: Birds of Briggs Terrace
 toc: false
 ---
 
+<style type="text/css">
+  ul#birdBadges {
+    list-style-type: none;
+    padding: 0px;
+  }
+  ul#birdBadges li {
+    height 240px;
+    width: 120px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+  }
+  img.birdBadge {
+    height: 120px;
+    width: 120px;
+  }
+  span.comName {
+    font-size: 11px;
+    display: block;
+  }
+  span.sciName {
+    font-size: 11px;
+    font-style: italic;
+    display: block;
+  }
+  span.firstTimeDetected {
+    font-size: 11px;
+    display: block;
+  }
+</style>
+
 # Birds of Briggs Terrace
 
 Our hobby is tracking the birds that visit our yard. This page is a report of the detections we've heard so far! Each "detection" is made by a small outdoor microphone. A bird with more 
@@ -12,16 +43,16 @@ detections spent more time in our yard than bird with less.
 
 ```js
 const detectionsByDayL365 = FileAttachment("data/detectionsByDayL365.csv").csv({typed: true});
-const detectionsByHourL7 = FileAttachment("data/detectionsByHourL7.csv").csv({typed: true});
 const detectionsTopKL28 = FileAttachment("data/detectionsTopKL28.csv").csv({typed: true});
 const detectionsByHourOfDayL365 = FileAttachment("data/detectionsByHourOfDayL365.csv").csv({typed: true});
+const detectionsNewBirds = FileAttachment("data/detectionsNewBirds.csv").csv({typed: true});
 ```
 
 ```js
 const top_birds_colors = Plot.scale({
   color: {
     type: "categorical",
-    domain: d3.groupSort(detectionsByHourL7, (D) => -d3.sum(D, d => d.detections_cnt), (d) => d.comName).filter((d) => d !== "Other"),
+    domain: d3.groupSort(detectionsTopKL28, (D) => -d3.sum(D, d => d.detections_cnt), (d) => d.comName).filter((d) => d !== "Other"),
     unknown: "var(--theme-foreground-muted)",
     scheme: "Set2"
   }
@@ -41,23 +72,6 @@ function detectionsByDayL365Timeline(data, {width} = {}) {
       Plot.rectY(data, Plot.binX(
         {y: "sum"},
         {x: "time", y: "detections_cnt", fill: "comName", interval: "day", tip: true}
-      ))
-    ]
-  });
-}
-
-function detectionsByHourL7Timeline(data, {width} = {}) {
-  return Plot.plot({
-    title: "Birds by hour over the past week",
-    width,
-    height: 300,
-    y: {grid: true, label: "Detections"},
-    x: {grid: true, label: "Date", tickFormat: "%b %d"},
-    color: {...top_birds_colors, legend: true},
-    marks: [
-      Plot.rectY(data, Plot.binX(
-        {y: "sum"},
-        {x: "time", y: "detections_cnt", fill: "comName", interval: "hour", tip: true}
       ))
     ]
   });
@@ -157,10 +171,29 @@ function detectionsByHourOfDayL365Chart(data, {width} = {}) {
   <div class="card">
     ${resize((width) => detectionsByDayL365Timeline(detectionsByDayL365, {width}))}
   </div>
-  <div class="card">
-    ${resize((width) => detectionsByHourL7Timeline(detectionsByHourL7, {width}))}
+  <div class="card" style="height: 397px; overflow-y: auto;">
+    <h2>Birds by date of detection</h2>
+    <ul id="birdBadges"></ul>
   </div>
 </div>
+
+```js
+var formatBirdBadgeTime = d3.utcFormat("%B %d, %Y")
+d3
+.select("#birdBadges")
+.selectAll("li")
+.data(detectionsNewBirds)
+.enter()
+  .append('li')
+  .html(d => ( 
+    "<img class='birdBadge' src='https://s3.amazonaws.com/briggsbirds.com/bird-image-store/" + d.sciName + ".jpg' />" +
+    "<span class='comName'>" + d.comName + "</span>" + 
+    "<span class='sciName'>(" + d.sciName + ")</span>" + 
+    "<span class='firstTimeDetected'>" + formatBirdBadgeTime(d.first_time_detected) + "</span>"
+  ));
+```
+
+
 <div class="grid grid-cols-1">
   <div class="card">
     ${resize((width) => bumpChart(detectionsTopKL28, {width}))}

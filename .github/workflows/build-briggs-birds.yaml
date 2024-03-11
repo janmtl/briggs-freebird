@@ -23,6 +23,8 @@ jobs:
           FREEBIRD_AWS_ACCESS_KEY_ID: ${{ secrets.FREEBIRD_AWS_ACCESS_KEY_ID }}
           FREEBIRD_AWS_SECRET_ACCESS_KEY: ${{ secrets.FREEBIRD_AWS_SECRET_ACCESS_KEY }}
           FREEBIRD_REGION_NAME: ${{ secrets.FREEBIRD_REGION_NAME }}
+          FREEBIRD_BIRD_IMAGE_STORE_PREFIX: ${{ secrets.FREEBIRD_BIRD_IMAGE_STORE_PREFIX }}
+          FREEBIRD_FLICKR_API_KEY: ${{ secrets.FREEBIRD_FLICKR_API_KEY }}
         run: npm run build
       - name: Publish to bucket
         env:
