@@ -14,11 +14,13 @@ toc: false
     width: 120px;
     display: inline-block;
     vertical-align: top;
-    margin: 0px;
+    text-align: center;
+    margin: 5px;
   }
   img.birdBadge {
     height: 120px;
     width: 120px;
+    border-radius: 60px;
   }
   span.comName {
     font-size: 11px;

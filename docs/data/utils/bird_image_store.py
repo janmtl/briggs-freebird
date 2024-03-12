@@ -3,6 +3,8 @@ import boto3
 import json
 import requests
 from urllib.parse import quote
+from PIL import Image
+import io
 
 
 def get_s3_client():
@@ -50,7 +52,37 @@ def get_image(sciName):
 
 
 def resize_image(image):
-    return image
+    pil_image = Image.open(io.BytesIO(image))
+
+    width, height = pil_image.size
+    square_size = min(height, width)
+    crop_direction = 'h' if height > width else 'w'
+
+    if crop_direction == 'h':
+        trim = int(0.5 * (height - square_size))
+        crop_box = (
+            0, # Left
+            trim, # Upper
+            width, # Right
+            height - trim # Lower
+        )
+    else:
+        trim = int(0.5 * (width - square_size))
+        crop_box = (
+            trim, # Left
+            0, # Upper
+            width - trim, # Right
+            height # Lower
+        )
+
+    cropped_pil_image = pil_image.crop(box=crop_box)
+    cropped_and_resize_pil_image = cropped_pil_image.resize((120, 120))
+
+    image_buffer = io.BytesIO()
+    cropped_and_resize_pil_image.save(image_buffer, format='JPEG')
+    image_buffer.seek(0)
+    output_image_data = image_buffer.read()
+    return output_image_data
 
 
 def put_image(image, sciName):

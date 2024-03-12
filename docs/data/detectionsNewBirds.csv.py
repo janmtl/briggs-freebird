@@ -28,6 +28,7 @@ all_birds = set(output_frame0["sciName"].values)
 new_birds = list(all_birds - stored_birds)
 for new_bird in new_birds:
     image = get_image(new_bird)
-    put_image(image, new_bird)
+    resized_image = resize_image(image)
+    put_image(resized_image, new_bird)
 
 output_frame0.to_csv(sys.stdout, index=False)
