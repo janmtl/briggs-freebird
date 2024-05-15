@@ -45,7 +45,6 @@ detections spent more time in our yard than bird with less.
 
 ```js
 const detectionsByDayL365 = FileAttachment("data/detectionsByDayL365.csv").csv({typed: true});
-const detectionsTopKL28 = FileAttachment("data/detectionsTopKL28.csv").csv({typed: true});
 const detectionsByHourOfDayL365 = FileAttachment("data/detectionsByHourOfDayL365.csv").csv({typed: true});
 const detectionsNewBirds = FileAttachment("data/detectionsNewBirds.csv").csv({typed: true});
 ```
@@ -54,8 +53,8 @@ const detectionsNewBirds = FileAttachment("data/detectionsNewBirds.csv").csv({ty
 const top_birds_colors = Plot.scale({
   color: {
     type: "categorical",
-    domain: d3.groupSort(detectionsTopKL28, (D) => -d3.sum(D, d => d.detections_cnt), (d) => d.comName).filter((d) => d !== "Other"),
-    unknown: "var(--theme-foreground-muted)",
+    domain: d3.groupSort(detectionsByDayL365, (D) => -d3.sum(D, d => d.detections_cnt), (d) => d.comName).filter((d) => d !== "Other"),
+    unknown: "#AAA",
     scheme: "Set2"
   }
 });
@@ -64,91 +63,21 @@ const top_birds_colors = Plot.scale({
 ```js
 function detectionsByDayL365Timeline(data, {width} = {}) {
   return Plot.plot({
-    title: "Top 10 birds over the past year (starting Feb 2024)",
+    title: "Top birds over the past year (starting Feb 2024)",
     width,
     height: 300,
     y: {grid: true, label: "Detections"},
     x: {grid: true, label: "Date", tickFormat: "%b %d"},
     color: {...top_birds_colors, legend: true},
     marks: [
-      Plot.rectY(data, Plot.binX(
+      Plot.areaY(data, Plot.groupX(
         {y: "sum"},
-        {x: "time", y: "detections_cnt", fill: "comName", interval: "day", tip: true}
+        {x: "time", y: "detections_cnt", fill: "comName", interval: "day", tip: true, curve: "bump-x"}
       ))
     ]
   });
 }
 
-function bumpChart(data, {x = "time", y = "sum_rank", z = "comName", interval = "day", width} = {}) {
-  const num_lookback_days = Math.floor(width / 100)
-  const filtered_data = data.filter((d) => d.num_days_back < num_lookback_days)
-  const rank = Plot.stackY2({x, z, order: y, reverse: true});
-  const [xmin, xmax] = d3.extent(Plot.valueof(filtered_data, x));
-  return Plot.plot({
-    title: "Top birds over the past two week",
-    width,
-    x: {
-      [width < 480 ? "insetRight" : "inset"]: 120,
-      label: null,
-      grid: true,
-      interval: "day"
-    },
-    y: {
-      axis: null,
-      inset: 20,
-      reverse: true
-    },
-    color: {
-      scheme: "spectral"
-    },
-    marks: [
-      Plot.lineY(filtered_data, Plot.binX({x: "first", y: "first", filter: null}, {
-        ...rank,
-        stroke: z,
-        strokeWidth: 24,
-        curve: "bump-x",
-        sort: {color: "y", reduce: "first"},
-        interval,
-        render: halo({stroke: "var(--theme-background-alt)", strokeWidth: 27})
-      })),
-      Plot.text(filtered_data, {
-        ...rank,
-        text: rank.y,
-        fill: "black",
-        stroke: z,
-        channels: {"Common name": "comName", "Scientific name": "sciName", "Detections": (d) => String(d.detections_cnt)},
-        tip: {format: {y: null, text: null}}
-      }),
-      width < 480 ? null : Plot.text(filtered_data, {
-        ...rank,
-        filter: (d) => d[x] <= xmin,
-        text: z,
-        dx: -20,
-        textAnchor: "end"
-      }),
-      Plot.text(filtered_data, {
-        ...rank,
-        filter: (d) => d[x] >= xmax,
-        text: z,
-        dx: 20,
-        textAnchor: "start"
-      })
-    ]
-  })
-}
-
-function halo({stroke = "currentColor", strokeWidth = 3} = {}) {
-  return (index, scales, values, dimensions, context, next) => {
-    const g = next(index, scales, values, dimensions, context);
-    for (const path of [...g.childNodes]) {
-      const clone = path.cloneNode(true);
-      clone.setAttribute("stroke", stroke);
-      clone.setAttribute("stroke-width", strokeWidth);
-      path.parentNode.insertBefore(clone, path);
-    }
-    return g;
-  };
-}
 
 function detectionsByHourOfDayL365Chart(data, {width} = {}) {
   return Plot.plot({
@@ -197,9 +126,6 @@ d3
 
 
 <div class="grid grid-cols-1">
-  <div class="card">
-    ${resize((width) => bumpChart(detectionsTopKL28, {width}))}
-  </div>
   <div class="card">
     ${resize((width) => detectionsByHourOfDayL365Chart(detectionsByHourOfDayL365, {width}))}
   </div>

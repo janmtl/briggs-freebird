@@ -7,7 +7,7 @@ daily_sums_l28 AS (
     COUNT(*) AS detections_cnt
   FROM freebirdDB."detectionsTBL"
   WHERE ((measure_name = 'Confidence') OR (measure_name = 'confidence'))
-    AND time >= ago(14d)
+    AND time >= ago(28d)
   GROUP BY 1, 2, 3
 ),
 ranked_daily_sums_l28 AS (
