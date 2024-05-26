@@ -72,7 +72,7 @@ function detectionsByDayL365Timeline(data, {width} = {}) {
     marks: [
       Plot.areaY(data, Plot.groupX(
         {y: "sum"},
-        {x: "time", y: "detections_cnt", fill: "comName", interval: "day", tip: true, curve: "bump-x"}
+        {x: "time", y: "detections_cnt_7dma", fill: "comName", interval: "day", tip: true, curve: "bump-x"}
       ))
     ]
   });
