@@ -8,7 +8,7 @@ from utils.timestream_to_dataframe import timestream_query_to_dataframe
 QueryString = (
     open('docs/data/queries/detectionsByDayL365.sql')
     .read()
-    .replace('${TOP_K}', '8')
+    .replace('${TOP_K}', '16')
 )
 timestream_query_client = get_timestream_client()
 

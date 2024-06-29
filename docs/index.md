@@ -61,6 +61,35 @@ const top_birds_colors = Plot.scale({
 ```
 
 ```js
+
+
+  // return Plot.plot({
+  //   style: "overflow: visible;",
+  //   y: {
+  //     type: "log",
+  //     grid: true,
+  //     label: "Change in price (%)",
+  //     tickFormat: ((f) => (x) => f((x - 1) * 100))(d3.format("+d"))
+  //   },
+  //   marks: [
+  //     Plot.ruleY([1]),
+  //     Plot.ruleX([date]),
+  //     Plot.lineY(stocks, Plot.normalizeY(basis, {
+  //       x: "Date",
+  //       y: "Close",
+  //       stroke: "Symbol"
+  //     })),
+  //     Plot.text(stocks, Plot.selectLast(Plot.normalizeY(basis, {
+  //       x: "Date",
+  //       y: "Close",
+  //       z: "Symbol",
+  //       text: "Symbol",
+  //       textAnchor: "start",
+  //       dx: 3
+  //     })))
+  //   ]
+  // });
+
 function detectionsByDayL365Timeline(data, {width} = {}) {
   return Plot.plot({
     title: "Top birds over the past year (starting Feb 2024)",
@@ -70,14 +99,10 @@ function detectionsByDayL365Timeline(data, {width} = {}) {
     x: {grid: true, label: "Date", tickFormat: "%b %d"},
     color: {...top_birds_colors, legend: true},
     marks: [
-      Plot.areaY(data, Plot.groupX(
-        {y: "sum"},
-        {x: "time", y: "detections_cnt_7dma", fill: "comName", interval: "day", tip: true, curve: "bump-x"}
-      ))
+      Plot.lineY(data, {x: "time", y: "detections_cnt_7dma", stroke: "comName", tip: true})
     ]
   });
 }
-
 
 function detectionsByHourOfDayL365Chart(data, {width} = {}) {
   return Plot.plot({
@@ -103,7 +128,7 @@ function detectionsByHourOfDayL365Chart(data, {width} = {}) {
     ${resize((width) => detectionsByDayL365Timeline(detectionsByDayL365, {width}))}
   </div>
   <div class="card" style="height: 397px; overflow-y: auto;">
-    <h2>Birds by date of detection</h2>
+    <h2>Birds by first date of detection</h2>
     <ul id="birdBadges"></ul>
   </div>
 </div>
