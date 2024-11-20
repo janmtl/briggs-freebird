@@ -23,6 +23,7 @@ output_frame0 = (
     .pipe(lambda x: x[x['time'] >= pd.Timestamp('2024-02-01')])
     .pipe(lambda x: x.assign(time=x['time'].dt.strftime("%Y-%m-%d")))
     .pipe(lambda x: x.assign(detections_cnt=x['detections_cnt'].astype(int)))
+    .pipe(lambda x: x.assign(cume_detections_cnt=x['cume_detections_cnt'].astype(int)))
 )
 
 output_frame1 = (
@@ -33,9 +34,9 @@ output_frame1 = (
         .set_index('time')
         .groupby(['comName', 'sciName'])
         .rolling(14, min_periods=0)
-        ['detections_cnt']
+        [['detections_cnt', 'cume_detections_cnt']]
         .mean()
-        .rename('detections_cnt_7dma')
+        .add_suffix('_7dma')
         .reset_index(),
         on=['comName', 'sciName', 'time'],
         how='outer'

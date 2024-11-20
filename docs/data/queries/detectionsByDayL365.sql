@@ -36,5 +36,6 @@ SELECT
   time,
   comName,
   sciName,
-  SUM(detections_cnt) OVER (PARTITION BY comName, sciName ORDER BY time ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS detections_cnt
+  detections_cnt,
+  SUM(detections_cnt) OVER (PARTITION BY comName, sciName ORDER BY time ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cume_detections_cnt
 FROM daily_detections
